@@ -11,7 +11,7 @@ function login() {
         if (email == 'admin@gmail.com' && password == 'admin') {
             alert('Hola de vuelta prueba');
             //window.location.href = '../inicio.html';
-            logo.href = '../inicio.html';
+            logo.href = 'inicio.html';
         } else {
             button.type = "reset";
         }
